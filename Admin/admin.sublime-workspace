@@ -1,0 +1,444 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"creat",
+				"createCurso"
+			],
+			[
+				"pe",
+				"_periodo"
+			],
+			[
+				"unive",
+				"_universidade"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"$sc",
+				"$scope	AngularJS"
+			],
+			[
+				"funcion",
+				"funcionario"
+			],
+			[
+				"funcio",
+				"funcionario"
+			],
+			[
+				"Angu",
+				"angular	AngularJS"
+			],
+			[
+				"list",
+				"listarProduto"
+			],
+			[
+				"ex",
+				"excluir"
+			],
+			[
+				"lo",
+				"log"
+			],
+			[
+				"consol",
+				"console"
+			],
+			[
+				"produto",
+				"produtos"
+			],
+			[
+				"produ",
+				"produtoService"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"fo",
+				"font-style"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"margin-le",
+				"margin-left"
+			],
+			[
+				"$route",
+				"$routeParams	AngularJS"
+			],
+			[
+				"bo",
+				"border-top"
+			],
+			[
+				"bac",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/rangel/Documents/pessoal/portifolio/about.html",
+		"/C/Users/rangel/Documents/pessoal/portifolio/contato.html",
+		"/C/Users/rangel/Documents/pessoal/portifolio/footer-page.html",
+		"/C/Users/rangel/Documents/pessoal/portifolio/header-page.html",
+		"/C/Users/rangel/Documents/pessoal/portifolio/portifolio.html",
+		"/C/Users/rangel/Documents/pessoal/portifolio/resume.html",
+		"/C/Users/rangel/Documents/pessoal/portifolio/index.html",
+		"/C/Users/rangel/Documents/GitHub/rsacacio.github.io/css/layout.css",
+		"/C/Users/rangel/Documents/pessoal/curriculo/app/styles/layout.css",
+		"/C/Users/rangel/Documents/pessoal/curriculo/app/index.html",
+		"/C/Users/rangel/Documents/pessoal/Ceevee10/index.html",
+		"/C/Users/rangel/Documents/pessoal/portifolio/css/layout.css",
+		"/C/Users/rangel/Documents/pessoal/portifolio/scripts/init.js",
+		"/C/Users/rangel/Documents/GitHub/rsacacio.github.io/scripts/init.js",
+		"/C/Users/rangel/Documents/GitHub/rsacacio.github.io/inc/sendEmail.php",
+		"/C/Users/rangel/Documents/pessoal/portifolio/css/default.css",
+		"/C/Users/rangel/Documents/pessoal/curriculo/bower.json",
+		"/C/Users/rangel/Documents/pessoal/curriculo/app/views/portifolio.html",
+		"/C/Users/rangel/Documents/pessoal/curriculo/app/views/resume.html",
+		"/C/Users/rangel/Documents/pessoal/curriculo/app/views/contato.html",
+		"/C/Users/rangel/Documents/pessoal/curriculo/app/views/footer-page.html",
+		"/C/Users/rangel/Documents/pessoal/Ceevee10/js/waypoints.js",
+		"/C/Users/rangel/Documents/pessoal/curriculo/app/views/about.html",
+		"/C/Users/rangel/Documents/pessoal/curriculo/app/views/header-page.html",
+		"/C/Users/rangel/Documents/pessoal/curriculo/Gruntfile.js",
+		"/C/Users/rangel/Documents/pessoal/curriculo/app/styles/default.css",
+		"/C/Users/rangel/Documents/pessoal/curriculo/app/scripts/app.js",
+		"/C/Users/rangel/Documents/pessoal/curriculo/app/scripts/controllers/main.js",
+		"/C/Users/rangel/Documents/pessoal/curriculo/app/views/main.html",
+		"/C/Users/rangel/Documents/pessoal/curriculo/app/styles/media-queries.css",
+		"/C/Users/rangel/Documents/pessoal/curriculo/dist/index.html",
+		"/C/Users/rangel/Documents/pessoal/curriculo/app/scripts/3rdlibs/init.js",
+		"/C/Users/rangel/Documents/pessoal/curriculo/bower_components/fittext/fittext.js",
+		"/C/Users/rangel/Documents/pessoal/curriculo/app/scripts/3rdlibs/jquery.fittext.js",
+		"/C/Users/rangel/Documents/pessoal/curriculo/app/scripts/3rdlibs/jquery-migrate-1.2.1.min.js",
+		"/C/Users/rangel/Documents/pessoal/handler/app/views/cliente.html",
+		"/C/Users/rangel/Documents/pessoal/handler/app/views/main.html",
+		"/C/Users/rangel/Documents/pessoal/handler/app/views/home.html",
+		"/C/Users/rangel/Documents/pessoal/curriculo/bower_components/magnific-popup/README.md",
+		"/C/Users/rangel/Documents/pessoal/Ceevee10/js/magnific-popup.js",
+		"/C/Users/rangel/Documents/GitHub/rsacacio.github.io/index.html",
+		"/C/Users/rangel/Documents/pessoal/curriculo/app/scripts/3rdlibs/waypoints.js",
+		"/C/Users/rangel/Documents/pessoal/curriculo/app/scripts/3rdlibs/modernizr.js",
+		"/C/Users/rangel/Desktop/index.html",
+		"/C/Users/rangel/Documents/pessoal/handler/app/scripts/services/produtoService.js",
+		"/C/Users/rangel/Documents/pessoal/handler/app/views/produtos.html",
+		"/C/Users/rangel/Documents/pessoal/handler/app/scripts/controllers/produtos.js",
+		"/C/Users/rangel/Documents/pessoal/handler/app/views/modal/modalProduto.html",
+		"/C/Users/rangel/Documents/pessoal/handler/app/index.html",
+		"/C/Program Files/Apache Software Foundation/apache-tomcat-7.0.57/conf/server.xml",
+		"/C/Users/rangel/Documents/pessoal/handler/app/scripts/services/unidadeMedidaService.js",
+		"/C/Users/rangel/Documents/pessoal/handler/app/views/modal/modalFuncionario.html",
+		"/C/Users/rangel/Documents/pessoal/handler/app/scripts/services/cargoService.js",
+		"/C/Users/rangel/Documents/pessoal/handler/app/scripts/services/permissaoService.js",
+		"/C/Users/rangel/Documents/pessoal/handler/app/scripts/services/funcionarioService.js",
+		"/C/Users/rangel/Documents/pessoal/handler/app/scripts/controllers/funcionario.js",
+		"//maringa/Banco de Dados/Ferramentas de Modelagem/PowerDesigner/16.1/Sybase PowerDesigner 16.1.0.3637/Documentation/index.htm",
+		"/C/Users/rangel/Documents/pessoal/handler/app/views/funcionario.html",
+		"/C/Users/rangel/Documents/pessoal/handler/app/scripts/app.js",
+		"/C/Users/rangel/Documents/pessoal/handler/app/views/teste11.html",
+		"/C/Users/rangel/Documents/pessoal/handler/app/views/about.html",
+		"/C/Users/rangel/Documents/pessoal/handler/app/scripts/controllers/about.js",
+		"/C/Users/rangel/Documents/pessoal/handler/bower.json",
+		"/C/Users/rangel/Documents/pessoal/handler/app/views/modal/modalAgenda.html",
+		"/C/Users/rangel/Desktop/teste11.html",
+		"/C/Users/rangel/Documents/pessoal/handler/app/scripts/services/unidadeMedidaSerivce.js",
+		"/C/Users/rangel/Downloads/Nova pasta/Nova pasta/AvaliacaoComissaoConfig.xml",
+		"/C/Users/rangel/Desktop/Nova pasta/ChamadasListingConfig.xml",
+		"/C/Users/rangel/Desktop/Nova pasta/ChamadaPublicaConfig.xml",
+		"/C/Users/rangel/Desktop/Nova pasta/HomePageViewImplConfig.xml",
+		"/C/Users/rangel/Desktop/Nova pasta/PortalConfig.xml",
+		"/C/Users/rangel/Desktop/Nova pasta/ProponenteHomeConfig.xml",
+		"/C/Users/rangel/Desktop/Nova pasta/AvaliacaoComissaoConfig.xml",
+		"/C/Users/rangel/Documents/pessoal/handler/app/scripts/services/tipoProdutoService.js",
+		"/C/Users/rangel/Documents/pessoal/handler/app/scripts/services/clienteService.js",
+		"/C/Users/rangel/Documents/pessoal/handler/app/scripts/services/empresaService.js",
+		"/C/Users/rangel/Documents/pessoal/handler/app/scripts/services/fornecedorService.js",
+		"/C/Users/rangel/Documents/pessoal/handler/app/scripts/controllers/cliente.js",
+		"/C/Users/rangel/Documents/pessoal/handler/app/views/fornecedor.html",
+		"/C/Users/rangel/Documents/pessoal/handler/app/scripts/controllers/fornecedor.js",
+		"/C/eclipse/eclipse/artifacts.xml",
+		"/C/Users/rangel/Documents/pessoal/handler/Gruntfile.js",
+		"/C/Users/rangel/Desktop/oppudescact/diagram-viewer/index.html",
+		"/C/Users/rangel/Desktop/activiti/WEB-INF/activiti-standalone-context.xml",
+		"/C/Users/rangel/Desktop/activiti/WEB-INF/classes/db.properties",
+		"/C/Users/rangel/Desktop/bpm/WEB-INF/classes/db.properties",
+		"/C/Users/rangel/Desktop/oppestacioact/WEB-INF/activiti-standalone-context.xml",
+		"/C/Users/rangel/Desktop/oppestacioact/WEB-INF/classes/db.properties",
+		"/C/Program Files/Apache Software Foundation/apache-tomcat-7.0.57/webapps/activiti-explorer/WEB-INF/classes/db.properties",
+		"/C/Program Files/Apache Software Foundation/apache-tomcat-7.0.57/conf/tomcat-users.xml",
+		"/C/Users/rangel/Downloads/activiti-5.16.4/activiti-5.16.4/database/upgrade/activiti.db2.upgradestep.53.to.54.engine.sql",
+		"/C/Users/rangel/Downloads/activiti-5.16.4/activiti-5.16.4/database/upgrade/activiti.postgres.upgradestep.50.to.51.history.sql",
+		"/C/Program Files/Apache Software Foundation/apache-tomcat-7.0.57/webapps/activiti-explorer1/WEB-INF/classes/db.properties",
+		"/C/Program Files/Apache Software Foundation/apache-tomcat-7.0.57/webapps/activiti-explorer/WEB-INF/classes/activiti-ui-context.xml",
+		"/C/Program Files/Apache Software Foundation/apache-tomcat-7.0.57/webapps/activiti-explorer/WEB-INF/classes/engine.properties",
+		"/C/Users/rangel/Desktop/bpm/WEB-INF/activiti-standalone-context.xml",
+		"/C/Users/rangel/Downloads/net2ftp-1416341557/views/modal/modalProduto.html",
+		"/C/Users/rangel/Documents/pessoal/handler/app/scripts/controllers/home.js",
+		"/C/Users/rangel/Documents/pessoal/handler/app/styles/main.css",
+		"/C/Users/rangel/Downloads/net2ftp-1416341557/views/produtos.html",
+		"/C/Users/rangel/Downloads/spring-data-rest-angular-sample/spring-data-rest-angular-sample/pom.xml",
+		"/C/Users/rangel/Downloads/spring-data-rest-angular-sample/spring-data-rest-angular-sample/src/main/java/com/programmingfree/springservice/Application.java",
+		"/C/Users/rangel/Downloads/spring-data-rest-angular-sample/spring-data-rest-angular-sample/src/main/resources/application.properties",
+		"/C/Users/rangel/Downloads/spring-data-rest-angular-sample/spring-data-rest-angular-sample/src/main/resources/static/js/app.js",
+		"/C/Users/rangel/Downloads/spring-data-rest-angular-sample/spring-data-rest-angular-sample/src/main/java/com/programmingfree/springservice/Task.java",
+		"/C/Users/rangel/Downloads/spring-data-rest-angular-sample/spring-data-rest-angular-sample/src/main/java/com/programmingfree/springservice/TaskRepository.java",
+		"/C/Users/rangel/Downloads/hq-power-master/hq-power-master/src/main/resources/config/application.properties",
+		"/C/Users/rangel/Downloads/hq-power-master/hq-power-master/src/main/java/com/divecch/hqpower/Application.java",
+		"/C/Users/rangel/Downloads/hq-power-master/hq-power-master/src/main/java/com/divecch/hqpower/repository/HQRepository.java",
+		"/C/Users/rangel/Downloads/hq-power-master/hq-power-master/pom.xml",
+		"/C/Users/rangel/Downloads/spring-data-rest-angular-sample/spring-data-rest-angular-sample/src/main/java/com/programmingfree/springservice/HomeController.java",
+		"/C/Users/rangel/Documents/pessoal/teste1/app/views/main.html",
+		"/C/Users/rangel/Documents/backup/ISBatchEmail/isbatchmail/resources/isemail.properties",
+		"/E/arquivos/index2.html",
+		"/C/Users/rangel/Documents/pessoal/teste.html",
+		"/C/Users/rangel/Documents/pessoal/testefirebase/app/styles/main.css",
+		"/C/Users/rangel/Documents/pessoal/testefirebase/app/scripts/controllers/chat.js",
+		"/C/Users/rangel/Documents/pessoal/testefirebase/app/scripts/app.js",
+		"/C/Users/rangel/Documents/pessoal/app.js",
+		"/C/Users/rangel/Documents/pessoal/testefirebase/app/views/chat.html",
+		"/C/Users/rangel/Documents/pessoal/testefirebase/app/index.html",
+		"/C/Users/rangel/Documents/pessoal/testefirebase/app/scripts/controllers/teste.js",
+		"/C/Users/rangel/Documents/pessoal/teste1/package.json",
+		"/C/Users/rangel/Downloads/vTak-master/public/partials/auth.html",
+		"/C/Users/rangel/Documents/pessoal/testefirebase/app/views/about.html",
+		"/C/Users/rangel/Documents/pessoal/testefirebase/teste.html",
+		"/C/Users/rangel/Documents/pessoal/handler/app/views/equipe.html",
+		"/C/Users/rangel/Documents/pessoal/handler/app/views/vendas.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"#about .profile-pic",
+			"smoothscroll",
+			"header",
+			"home",
+			"header",
+			"				$(",
+			"scripts",
+			"uglifyjs",
+			"concat",
+			"        \n",
+			"fitText",
+			"about",
+			"    \n",
+			"   \n",
+			"active_link",
+			"active_section",
+			"navigation_links",
+			"==",
+			"\"",
+			"java",
+			"photoshop",
+			"               \n",
+			"home",
+			"header",
+			"smoothscrolla",
+			"smoothscroll",
+			"<!--",
+			"    \n",
+			"data",
+			"Produto",
+			"calendarDemoApp",
+			"function salvar(funcionario, callback) {\n         var req = {\n         method: 'POST',\n         url: 'http://localhost:8080/funcionario/edit/' + funcionario.codigo,\n         headers: {\n           'Content-Type': 'application/json;charset=UTF-8',\n           'Accept' : 'application/json'\n         },\n         data: funcionario,\n        }\n\n        $http(req).success(function(data){\n            if (callback){ callback(data); }\n        }).error(function(){\n            console.log('error');\n        });\n    }",
+			"\n   ",
+			"produto",
+			"Produto",
+			"      \n",
+			"\n        ",
+			"fapesc",
+			",\n",
+			"selectProduto",
+			"slf4j",
+			"<artifact classifier='osgi.bundle",
+			"cliente",
+			"Cliente",
+			"cliente",
+			"Cliente",
+			"cliente",
+			"E-mail",
+			"\n    $scope.awesomeThings = [\n      'HTML5 Boilerplate',\n      'AngularJS',\n      'Karma'\n    ];",
+			"Produto",
+			"produto",
+			"function salvar(produto, callback) {\n        $http({\n            method:'POST',\n            url:'/tipoproduto/salvar',\n            data:JSON.stringify(produto)\n        }).success(function (data) {\n            console.log('opa' + data);\n            if (callback){ callback(data); }\n        });\n    }",
+			"yeoman.dist",
+			"\n\n  display: none;\n}",
+			"main",
+			".sidebar {\n  display: none;\n}",
+			"lato",
+			"collapse",
+			"\"",
+			"    \n",
+			"\"",
+			"\"></",
+			";\n",
+			"main",
+			"navbar-fixed",
+			";\n",
+			"		\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"activeSection",
+			"'\n'\nactive_section\nactiveSection",
+			"'",
+			"java",
+			"Agenda",
+			"funcionario",
+			"Funcionario",
+			"fornecedor",
+			"Fornecedor",
+			"fornecedor",
+			"funcionario",
+			"Funcionario",
+			"funcionario",
+			"Cliente",
+			"cliente",
+			"funcionario",
+			"fornecedor",
+			"empresa",
+			",",
+			"",
+			"'"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 244.0,
+	"status_bar_visible": true
+}

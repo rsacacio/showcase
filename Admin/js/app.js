@@ -14,8 +14,28 @@ var adminApp = angular.module('adminApp', ['ngRoute']).config(function ($routePr
         templateUrl: 'views/equipe.html',
         controller: 'EquipeCtrl'
       })
+      .when('/clientes', {
+        templateUrl: 'views/clientes.html',
+        controller: 'ClientesCtrl'
+      })
+      .when('/produtos', {
+        templateUrl: 'views/produtos.html',
+        controller: 'ProdutosCtrl'
+      })
+      .when('/fornecedores', {
+        templateUrl: 'views/fornecedores.html',
+        controller: 'FornecedoresCtrl'
+      })
+      .when('/dashboard', {
+        templateUrl: 'views/dashboard.html',
+        controller: 'DashboardCtrl'
+      })
+      .when('/home', {
+        templateUrl: 'views/home.html',
+        controller: 'HomeCtrl'
+      })
       .otherwise({
-        redirectTo: '/equipe'
+        redirectTo: '/home'
       });
 });
   
