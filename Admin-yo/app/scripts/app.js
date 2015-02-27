@@ -2,14 +2,22 @@
 
 /**
  * @ngdoc overview
- * @name portifolioApp
+ * @name adminApp
  * @description
- * # portifolioApp
+ * # adminApp
  *
  * Main module of the application.
  */
-var adminApp = angular.module('adminApp', ['ngRoute', 'leaflet-directive']).config(function ($routeProvider, $httpProvider) {
-  	$routeProvider
+var adminApp = angular.module('adminApp', [
+    'ngAnimate',
+    'ngCookies',
+    'ngResource',
+    'ngRoute',
+    'ngSanitize',
+    'ngTouch'
+  ])
+  .config(function ($routeProvider) {
+    $routeProvider
       .when('/equipe', {
         templateUrl: 'views/equipe.html',
         controller: 'EquipeCtrl'
@@ -37,7 +45,4 @@ var adminApp = angular.module('adminApp', ['ngRoute', 'leaflet-directive']).conf
       .otherwise({
         redirectTo: '/home'
       });
-});
-  
-
-
+  });

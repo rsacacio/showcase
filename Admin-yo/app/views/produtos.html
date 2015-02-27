@@ -1,0 +1,29 @@
+<div class="panel-body">
+    <div class="table-responsive">
+        <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+            <thead>
+                <tr>
+                    <th>Descrição</th>
+                    <th>Tipo</th>
+                    <th>Unidade</th>
+                    <th>Valor</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="odd gradeX" ng-repeat="produto in produtos">
+                    <td>{{produto.descricao}}</td>
+                    <td>{{produto.tipo.nome}}</td>
+                    <td>{{produto.unidade.nome}}</td>
+                    <td>{{produto.valor}}</td>
+                    <td class="center">
+                        <a href="" data-toggle="modal" data-target="#modalProduto" ng-click="editarProduto(produto);"><i class="fa fa-edit"></i></a>
+                        <a href=""><i class="fa fa-times"></i></a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <button class="btn btn-primary" data-toggle="modal" data-target="#modalProduto"><i class=" fa fa-plus "></i> Adicionar</button>
+        <div ng-include="'views/modals/modalProduto.html'"></div>
+    </div>  
+</div>

@@ -358,7 +358,7 @@ line-height: 1.428571429;
  
  @media(min-width:768px) {
      #page-wrapper{
-               margin: 0 0 0 260px;
+        margin: 0 0 0 260px;
         padding: 15px 30px;
         min-height: 1200px;
 		
@@ -372,9 +372,18 @@ line-height: 1.428571429;
     }
 
    .navbar {
- border-radius: 0px; 
-}
-   
+        border-radius: 0px; 
+    }
 }
 
-
+#map-container {
+    -webkit-box-shadow: rgba(64, 64, 64, 0.5) 0 2px 5px;
+    -moz-box-shadow: rgba(64, 64, 64, 0.5) 0 2px 5px;
+    box-shadow: rgba(64, 64, 64, 0.1) 0 2px 5px;
+    width: 600px;
+}
+ 
+#map {
+  width: 600px;
+  height: 400px;
+}
