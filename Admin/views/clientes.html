@@ -1,3 +1,29 @@
-teste
-
-{{menuSelecionado}}
+<div class="panel-body">
+    <div class="table-responsive">
+        <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>E-mail</th>
+                    <th>Telefone</th>
+                    <th>Endereço</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="odd gradeX" ng-repeat="cliente in clientes">
+                    <td>{{cliente.nome}}</td>
+                    <td>{{cliente.email}}</td>
+                    <td>{{cliente.telefone}}</td>
+                    <td>{{cliente.endereco}}</td>
+                    <td class="center">
+                        <a href="" data-toggle="modal" data-target="#modalCliente" ng-click="editarCliente(cliente);"><i class="fa fa-edit"></i></a>
+                        <a href=""><i class="fa fa-times"></i></a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <button class="btn btn-primary" data-toggle="modal" data-target="#modalCliente"><i class=" fa fa-plus "></i> Adicionar</button>
+        <div ng-include="'views/modals/modalCliente.html'"></div>
+    </div>  
+</div>

@@ -1,3 +1,29 @@
-teste
-
-{{menuSelecionado}}
+<div class="panel-body">
+	<div class="row">
+		<div class="col-md-3 col-sm-6 col-xs-6" ng-repeat="painel in paineis">
+			<a href="#{{painel.url}}">
+				<div class="panel panel-back noti-box">
+				    <span class="icon-box bg-color-blue set-icon">
+				        <i class="fa {{painel.icone}}"></i>
+				    </span>
+				    <div class="text-box">
+				        <p class="main-text">{{painel.count}}</p>
+				        <p class="text-muted">{{painel.caption}}</p>
+				    </div>
+				</div>
+			</a>
+		</div>
+	</div>
+	<div class="row"> 
+		<div class="col-md-6 col-sm-12 col-xs-12">                     
+   	    	<div class="panel panel-default">
+        		<div class="panel-heading">
+            		Bar Chart Example
+        		</div>
+        		<div class="panel-body">
+            		<div id="morris-bar-chart"></div>
+        		</div>
+    		</div>            
+		</div>
+	</div>
+</div>
