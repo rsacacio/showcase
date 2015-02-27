@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"$roo",
+				"$rootScope	AngularJS(DI)"
+			],
+			[
+				"$root",
+				"$rootScope	AngularJS"
+			],
+			[
 				"creat",
 				"createCurso"
 			],
@@ -95,6 +103,94 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 3713,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/rangel/Documents/GitHub/rsacacio.github.io/index.html",
+			"settings":
+			{
+				"buffer_size": 9135,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/app.js",
+			"settings":
+			{
+				"buffer_size": 1014,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "table.html",
+			"settings":
+			{
+				"buffer_size": 45777,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/equipe.html",
+			"settings":
+			{
+				"buffer_size": 1337,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/controller/equipe.js",
+			"settings":
+			{
+				"buffer_size": 1299,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "form.html",
+			"settings":
+			{
+				"buffer_size": 20097,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "ui.html",
+			"settings":
+			{
+				"buffer_size": 27473,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/modals/modalUsuario.html",
+			"settings":
+			{
+				"buffer_size": 2340,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/rangel/Documents/pessoal/handler/app/views/modal/modalFuncionario.html",
+			"settings":
+			{
+				"buffer_size": 2586,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/font-awesome.css",
+			"settings":
+			{
+				"buffer_size": 21783,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -128,6 +224,28 @@
 	},
 	"file_history":
 	[
+		"/C/Users/rangel/Documents/pessoal/handler/app/views/home.html",
+		"/C/Users/rangel/Documents/pessoal/handler/app/index.html",
+		"/C/Users/rangel/Documents/GitHub/showcase/Admin/js/controller/produtos.js",
+		"/C/Users/rangel/Documents/GitHub/showcase/Admin/js/controller/home.js",
+		"/C/Users/rangel/Documents/GitHub/showcase/Admin/js/controller/fornecedores.js",
+		"/C/Users/rangel/Documents/GitHub/showcase/Admin/js/controller/equipe.js",
+		"/C/Users/rangel/Documents/GitHub/showcase/Admin/js/controller/dashboard.js",
+		"/C/Users/rangel/Documents/GitHub/showcase/Admin/js/controller/clientes.js",
+		"/C/Users/rangel/Documents/GitHub/showcase/Admin/views/produtos.html",
+		"/C/Users/rangel/Documents/GitHub/showcase/Admin/views/home.html",
+		"/C/Users/rangel/Documents/GitHub/showcase/Admin/views/fornecedores.html",
+		"/C/Users/rangel/Documents/GitHub/showcase/Admin/views/equipe.html",
+		"/C/Users/rangel/Documents/GitHub/showcase/Admin/views/dashboard.html",
+		"/C/Users/rangel/Documents/GitHub/showcase/Admin/views/clientes.html",
+		"/C/Users/rangel/Documents/GitHub/showcase/Admin/css/custom.css",
+		"/C/Users/rangel/Documents/pessoal/handler/app/scripts/controllers/home.js",
+		"/C/Users/rangel/Documents/pessoal/handler/app/scripts/controllers/cliente.js",
+		"/C/Users/rangel/Documents/pessoal/handler/app/scripts/controllers/equipe.js",
+		"/C/Users/rangel/Documents/pessoal/handler/app/scripts/controllers/fornecedor.js",
+		"/C/Users/rangel/Documents/pessoal/handler/app/scripts/controllers/produtos.js",
+		"/C/Users/rangel/Documents/pessoal/handler/app/scripts/controllers/vendas.js",
+		"/C/Users/rangel/Documents/pessoal/handler/app/scripts/controllers/funcionario.js",
 		"/C/Users/rangel/Documents/pessoal/portifolio/about.html",
 		"/C/Users/rangel/Documents/pessoal/portifolio/contato.html",
 		"/C/Users/rangel/Documents/pessoal/portifolio/footer-page.html",
@@ -165,7 +283,6 @@
 		"/C/Users/rangel/Documents/pessoal/curriculo/app/scripts/3rdlibs/jquery-migrate-1.2.1.min.js",
 		"/C/Users/rangel/Documents/pessoal/handler/app/views/cliente.html",
 		"/C/Users/rangel/Documents/pessoal/handler/app/views/main.html",
-		"/C/Users/rangel/Documents/pessoal/handler/app/views/home.html",
 		"/C/Users/rangel/Documents/pessoal/curriculo/bower_components/magnific-popup/README.md",
 		"/C/Users/rangel/Documents/pessoal/Ceevee10/js/magnific-popup.js",
 		"/C/Users/rangel/Documents/GitHub/rsacacio.github.io/index.html",
@@ -174,16 +291,13 @@
 		"/C/Users/rangel/Desktop/index.html",
 		"/C/Users/rangel/Documents/pessoal/handler/app/scripts/services/produtoService.js",
 		"/C/Users/rangel/Documents/pessoal/handler/app/views/produtos.html",
-		"/C/Users/rangel/Documents/pessoal/handler/app/scripts/controllers/produtos.js",
 		"/C/Users/rangel/Documents/pessoal/handler/app/views/modal/modalProduto.html",
-		"/C/Users/rangel/Documents/pessoal/handler/app/index.html",
 		"/C/Program Files/Apache Software Foundation/apache-tomcat-7.0.57/conf/server.xml",
 		"/C/Users/rangel/Documents/pessoal/handler/app/scripts/services/unidadeMedidaService.js",
 		"/C/Users/rangel/Documents/pessoal/handler/app/views/modal/modalFuncionario.html",
 		"/C/Users/rangel/Documents/pessoal/handler/app/scripts/services/cargoService.js",
 		"/C/Users/rangel/Documents/pessoal/handler/app/scripts/services/permissaoService.js",
 		"/C/Users/rangel/Documents/pessoal/handler/app/scripts/services/funcionarioService.js",
-		"/C/Users/rangel/Documents/pessoal/handler/app/scripts/controllers/funcionario.js",
 		"//maringa/Banco de Dados/Ferramentas de Modelagem/PowerDesigner/16.1/Sybase PowerDesigner 16.1.0.3637/Documentation/index.htm",
 		"/C/Users/rangel/Documents/pessoal/handler/app/views/funcionario.html",
 		"/C/Users/rangel/Documents/pessoal/handler/app/scripts/app.js",
@@ -205,9 +319,7 @@
 		"/C/Users/rangel/Documents/pessoal/handler/app/scripts/services/clienteService.js",
 		"/C/Users/rangel/Documents/pessoal/handler/app/scripts/services/empresaService.js",
 		"/C/Users/rangel/Documents/pessoal/handler/app/scripts/services/fornecedorService.js",
-		"/C/Users/rangel/Documents/pessoal/handler/app/scripts/controllers/cliente.js",
 		"/C/Users/rangel/Documents/pessoal/handler/app/views/fornecedor.html",
-		"/C/Users/rangel/Documents/pessoal/handler/app/scripts/controllers/fornecedor.js",
 		"/C/eclipse/eclipse/artifacts.xml",
 		"/C/Users/rangel/Documents/pessoal/handler/Gruntfile.js",
 		"/C/Users/rangel/Desktop/oppudescact/diagram-viewer/index.html",
@@ -225,7 +337,6 @@
 		"/C/Program Files/Apache Software Foundation/apache-tomcat-7.0.57/webapps/activiti-explorer/WEB-INF/classes/engine.properties",
 		"/C/Users/rangel/Desktop/bpm/WEB-INF/activiti-standalone-context.xml",
 		"/C/Users/rangel/Downloads/net2ftp-1416341557/views/modal/modalProduto.html",
-		"/C/Users/rangel/Documents/pessoal/handler/app/scripts/controllers/home.js",
 		"/C/Users/rangel/Documents/pessoal/handler/app/styles/main.css",
 		"/C/Users/rangel/Downloads/net2ftp-1416341557/views/produtos.html",
 		"/C/Users/rangel/Downloads/spring-data-rest-angular-sample/spring-data-rest-angular-sample/pom.xml",
@@ -240,22 +351,7 @@
 		"/C/Users/rangel/Downloads/hq-power-master/hq-power-master/pom.xml",
 		"/C/Users/rangel/Downloads/spring-data-rest-angular-sample/spring-data-rest-angular-sample/src/main/java/com/programmingfree/springservice/HomeController.java",
 		"/C/Users/rangel/Documents/pessoal/teste1/app/views/main.html",
-		"/C/Users/rangel/Documents/backup/ISBatchEmail/isbatchmail/resources/isemail.properties",
-		"/E/arquivos/index2.html",
-		"/C/Users/rangel/Documents/pessoal/teste.html",
-		"/C/Users/rangel/Documents/pessoal/testefirebase/app/styles/main.css",
-		"/C/Users/rangel/Documents/pessoal/testefirebase/app/scripts/controllers/chat.js",
-		"/C/Users/rangel/Documents/pessoal/testefirebase/app/scripts/app.js",
-		"/C/Users/rangel/Documents/pessoal/app.js",
-		"/C/Users/rangel/Documents/pessoal/testefirebase/app/views/chat.html",
-		"/C/Users/rangel/Documents/pessoal/testefirebase/app/index.html",
-		"/C/Users/rangel/Documents/pessoal/testefirebase/app/scripts/controllers/teste.js",
-		"/C/Users/rangel/Documents/pessoal/teste1/package.json",
-		"/C/Users/rangel/Downloads/vTak-master/public/partials/auth.html",
-		"/C/Users/rangel/Documents/pessoal/testefirebase/app/views/about.html",
-		"/C/Users/rangel/Documents/pessoal/testefirebase/teste.html",
-		"/C/Users/rangel/Documents/pessoal/handler/app/views/equipe.html",
-		"/C/Users/rangel/Documents/pessoal/handler/app/views/vendas.html"
+		"/C/Users/rangel/Documents/backup/ISBatchEmail/isbatchmail/resources/isemail.properties"
 	],
 	"find":
 	{
@@ -274,6 +370,17 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"plus",
+			"update",
+			"upadate",
+			"assets/",
+			"as",
+			"asset",
+			"assets/",
+			"fa-bar-line",
+			"dashboard",
+			"        \n",
+			"    \n",
 			"#about .profile-pic",
 			"smoothscroll",
 			"header",
@@ -348,6 +455,7 @@
 		"regex": true,
 		"replace_history":
 		[
+			"",
 			"activeSection",
 			"'\n'\nactive_section\nactiveSection",
 			"'",
@@ -379,8 +487,323 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 3713,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								565,
+								565
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/rangel/Documents/GitHub/rsacacio.github.io/index.html",
+					"settings":
+					{
+						"buffer_size": 9135,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								448,
+								402
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/app.js",
+					"settings":
+					{
+						"buffer_size": 1014,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								599,
+								599
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "table.html",
+					"settings":
+					{
+						"buffer_size": 45777,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1398,
+								1589
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 135.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "views/equipe.html",
+					"settings":
+					{
+						"buffer_size": 1337,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								962,
+								962
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "js/controller/equipe.js",
+					"settings":
+					{
+						"buffer_size": 1299,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1229,
+								1229
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "form.html",
+					"settings":
+					{
+						"buffer_size": 20097,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5273,
+								11651
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2655.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "ui.html",
+					"settings":
+					{
+						"buffer_size": 27473,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								23450,
+								23408
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 7563.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "views/modals/modalUsuario.html",
+					"settings":
+					{
+						"buffer_size": 2340,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1407,
+								1407
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/C/Users/rangel/Documents/pessoal/handler/app/views/modal/modalFuncionario.html",
+					"settings":
+					{
+						"buffer_size": 2586,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1270,
+								1458
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 135.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "css/font-awesome.css",
+					"settings":
+					{
+						"buffer_size": 21783,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7193,
+								7186
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5441.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
