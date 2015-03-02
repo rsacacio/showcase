@@ -1,4 +1,4 @@
-adminApp.controller('FornecedoresCtrl', ['$scope', '$rootScope', function ($scope, $rootScope) {
+angular.module('adminApp').controller('FornecedoresCtrl', ['$scope', '$rootScope', function ($scope, $rootScope) {
 	$rootScope.menuSelecionado = 'fornecedores';
 
 	var createFornecedor = function(_codigo, _nome, _cnpj, _representante, _endereco){
@@ -27,9 +27,9 @@ adminApp.controller('FornecedoresCtrl', ['$scope', '$rootScope', function ($scop
 	
 	$scope.editarFornecedor = function(fornecedorEditar){
 		$scope.fornecedor = angular.copy(fornecedorEditar);
-	}
+	};
 
 	$scope.cancelaEditar = function(){
 		$scope.fornecedor = null;
-	}
+	};
 }]);

@@ -8,7 +8,7 @@
  *
  * Main module of the application.
  */
-var adminApp = angular.module('adminApp', [
+angular.module('adminApp', [
     'ngAnimate',
     'ngCookies',
     'ngResource',
@@ -41,6 +41,10 @@ var adminApp = angular.module('adminApp', [
       .when('/home', {
         templateUrl: 'views/home.html',
         controller: 'HomeCtrl'
+      })
+      .when('/equipe/editar/:id', {
+        templateUrl: 'views/editarusuario.html',
+        controller: 'EditarusuarioCtrl'
       })
       .otherwise({
         redirectTo: '/home'

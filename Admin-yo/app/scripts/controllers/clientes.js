@@ -1,5 +1,6 @@
-adminApp.controller('ClientesCtrl', ['$scope', '$rootScope', function ($scope, $rootScope) {
+angular.module('adminApp').controller('ClientesCtrl', ['$scope', '$rootScope', function ($scope, $rootScope) {
 	$rootScope.menuSelecionado = 'clientes';
+	$scope.tela = 'Clientes';
 	
 	var createCliente = function(_codigo, _nome, _email, _telefone, _endereco){
 		return {
@@ -19,26 +20,9 @@ adminApp.controller('ClientesCtrl', ['$scope', '$rootScope', function ($scope, $
 
 	$scope.editarCliente = function(clienteEditar){
 		$scope.cliente = angular.copy(clienteEditar);
-	}
+	};
 
 	$scope.cancelaEditar = function(){
 		$scope.cliente = null;
-	}
-
-	angular.extend($scope, {
-        london: {
-            lat: 51.505,
-            lng: -0.09,
-            zoom: 8
-        },
-        markers: {
-            mainMarker: {
-                lat: 51,
-                lng: 0,
-                focus: true,
-                message: "Hey, drag me if you want",
-                draggable: true
-            }
-        }
-    });
+	};
 }]);

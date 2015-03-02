@@ -1,4 +1,4 @@
-adminApp.controller('DashboardCtrl', ['$scope', '$rootScope', '$timeout', function ($scope, $rootScope, $timeout) {
+angular.module('adminApp').controller('DashboardCtrl', ['$scope', '$rootScope', '$timeout', function ($scope, $rootScope, $timeout) {
 	$rootScope.menuSelecionado = 'dashboard';
 
 	var createGraficoTotalizadores = function(_descricao, _valor){

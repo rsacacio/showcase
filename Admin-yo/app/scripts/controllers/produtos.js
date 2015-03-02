@@ -1,4 +1,4 @@
-adminApp.controller('ProdutosCtrl', ['$scope', '$rootScope', function ($scope, $rootScope) {
+angular.module('adminApp').controller('ProdutosCtrl', ['$scope', '$rootScope', function ($scope, $rootScope) {
 	$rootScope.menuSelecionado = 'produtos';
 
 	var createProduto = function(_codigo, _descricao, _tipo, _unidade, _valor){
@@ -42,10 +42,10 @@ adminApp.controller('ProdutosCtrl', ['$scope', '$rootScope', function ($scope, $
 
 	$scope.editarProduto = function(produtoEditar){
 		$scope.produto = angular.copy(produtoEditar);
-	}
+	};
 
 	$scope.cancelaEditar = function(){
 		$scope.produto = null;
-	}
+	};
 
 }]);

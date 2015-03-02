@@ -1,4 +1,4 @@
-adminApp.controller('HomeCtrl', ['$scope', '$rootScope', '$timeout', function ($scope, $rootScope, $timeout) {
+angular.module('adminApp').controller('HomeCtrl', ['$scope', '$rootScope', '$timeout', function ($scope, $rootScope, $timeout) {
 	$rootScope.menuSelecionado = 'home';
 
 	var createPainel = function(_codigo, _count, _caption, _icone, _url){
