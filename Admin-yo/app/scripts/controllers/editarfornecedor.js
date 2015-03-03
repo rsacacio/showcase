@@ -38,7 +38,7 @@ angular.module('adminApp')
 	$scope.fornecedores.push(createFornecedor(1, 'Fornecedor 3', '867564434/44232', createRepresentante(3, 'José Nazareno de Souza', 'josé@fornecedor3.com', '9888-8799'), 'São Pedro de Alcântara'));
 	
 	angular.forEach($scope.fornecedores, function(fornecedor){
-		if(fornecedor.codigo === $routeParams.id){
+		if(fornecedor.codigo == $routeParams.id){
 			$scope.fornecedor = fornecedor;
 			return;
 		}
