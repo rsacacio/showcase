@@ -1,9 +1,19 @@
-angular.module('adminApp').controller('ProdutosCtrl', ['$scope', '$rootScope', function ($scope, $rootScope) {
-	$rootScope.menuSelecionado = 'produtos';
-    $scope.tela = 'Produtos';
-    $scope.urlback = 'home';
+'use strict';
 
-	var createProduto = function(_codigo, _descricao, _tipo, _unidade, _valor){
+/**
+ * @ngdoc function
+ * @name adminApp.controller:EditarprodutoCtrl
+ * @description
+ * # EditarprodutoCtrl
+ * Controller of the adminApp
+ */
+angular.module('adminApp')
+  .controller('EditarprodutoCtrl', [ '$scope', '$rootScope', '$routeParams', function ($scope, $rootScope, $routeParams){
+  	$rootScope.menuSelecionado = 'produtos';
+    $scope.tela = 'Editar produto';
+    $scope.urlback = 'produtos';
+
+    var createProduto = function(_codigo, _descricao, _tipo, _unidade, _valor){
 		return {
 			codigo: _codigo,
 			descricao: _descricao,
@@ -42,4 +52,10 @@ angular.module('adminApp').controller('ProdutosCtrl', ['$scope', '$rootScope', f
 	$scope.unidades.push(createUnidade(2, 'Fardo'));
 	$scope.unidades.push(createUnidade(3, 'Litro'));
 
+	angular.forEach($scope.produtos, function(produto){
+		if(produto.codigo == $routeParams.id){
+			$scope.produto = produto;
+			return;
+		}
+	});	
 }]);

@@ -46,6 +46,18 @@ angular.module('adminApp', [
         templateUrl: 'views/editarusuario.html',
         controller: 'EditarusuarioCtrl'
       })
+      .when('/fornecedores/editar/:id', {
+        templateUrl: 'views/editarfornecedor.html',
+        controller: 'EditarfornecedorCtrl'
+      })
+      .when('/produtos/editar/:id', {
+        templateUrl: 'views/editarproduto.html',
+        controller: 'EditarprodutoCtrl'
+      })
+      .when('/clientes/editar/:id', {
+        templateUrl: 'views/editarcliente.html',
+        controller: 'EditarclienteCtrl'
+      })
       .otherwise({
         redirectTo: '/home'
       });

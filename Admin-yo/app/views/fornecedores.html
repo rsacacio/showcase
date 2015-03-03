@@ -1,4 +1,5 @@
 <div class="panel-body">
+    <div ng-include="'views/widgets/breadcrumbs.html'"></div>
     <div class="table-responsive">
         <table class="table table-striped table-bordered table-hover" id="dataTables-example">
             <thead>
@@ -21,13 +22,12 @@
                     <td>{{fornecedor.representante.telefone}}</td>
                     <td>{{fornecedor.endereco}}</td>
                     <td class="center">
-                        <a href="" data-toggle="modal" data-target="#modalFornecedor" ng-click="editarFornecedor(fornecedor);"><i class="fa fa-edit"></i></a>
+                        <a href="#fornecedores/editar/{{fornecedor.codigo}}"><i class="fa fa-edit"></i></a>
                         <a href=""><i class="fa fa-times"></i></a>
                     </td>
                 </tr>
             </tbody>
         </table>
-        <button class="btn btn-primary" data-toggle="modal" data-target="#modalFornecedor"><i class=" fa fa-plus "></i> Adicionar</button>
-        <div ng-include="'views/modals/modalFornecedores.html'"></div>
+        <a class="btn btn-primary" href="#fornecedores/editar/0" role="button"> Adicionar</a>
     </div>  
 </div>

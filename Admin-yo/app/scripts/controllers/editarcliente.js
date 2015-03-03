@@ -1,8 +1,19 @@
-angular.module('adminApp').controller('ClientesCtrl', ['$scope', '$rootScope', function ($scope, $rootScope) {
+'use strict';
+
+/**
+ * @ngdoc function
+ * @name adminApp.controller:EditarclienteCtrl
+ * @description
+ * # EditarclienteCtrl
+ * Controller of the adminApp
+ */
+angular.module('adminApp')
+  .controller('EditarclienteCtrl', [ '$scope', '$rootScope', '$routeParams', function ($scope, $rootScope, $routeParams){
 	$rootScope.menuSelecionado = 'clientes';
-	$scope.tela = 'Clientes';
-	
-	var createCliente = function(_codigo, _nome, _email, _telefone, _endereco){
+    $scope.tela = 'Editar clientes';
+	$scope.urlback = 'clientes';
+
+    var createCliente = function(_codigo, _nome, _email, _telefone, _endereco){
 		return {
 			codigo: _codigo,
 			email: _email,
@@ -18,4 +29,10 @@ angular.module('adminApp').controller('ClientesCtrl', ['$scope', '$rootScope', f
 	$scope.clientes.push(createCliente(3, 'Padaria vó Maria', 'padocamaria@gmail.com', '1212-1212', 'Rua Vereador Arthur Mariano'));
 	$scope.clientes.push(createCliente(4, 'Bruce wayne', 'brucebat@wayne.com', '9998-9888', 'Av. Gotham'));
 
+	angular.forEach($scope.clientes, function(cliente){
+		if(cliente.codigo == $routeParams.id){
+			$scope.cliente = cliente;
+			return;
+		}
+	});	
 }]);
