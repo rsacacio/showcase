@@ -1,4 +1,6 @@
-angular.module('adminApp').controller('EquipeCtrl', ['$scope', '$rootScope', '$routeParams', function ($scope, $rootScope, $routeParams) {
+'use strict';
+
+angular.module('adminApp').controller('EquipeCtrl', ['$scope', '$rootScope', function ($scope, $rootScope) {
 	$rootScope.menuSelecionado = 'equipe';
 	$scope.tela = 'Equipe';
 	$scope.urlback = 'home';
@@ -11,13 +13,6 @@ angular.module('adminApp').controller('EquipeCtrl', ['$scope', '$rootScope', '$r
 			telefone: _telefone,
 			cargo: _cargo,
 			login: _login
-		};
-	};
-
-	var createCargo= function(_codigo, _nome){
-		return {
-			codigo: _codigo,
-			nome: _nome
 		};
 	};
 

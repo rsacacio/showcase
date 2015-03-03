@@ -53,7 +53,7 @@ angular.module('adminApp')
 	$scope.unidades.push(createUnidade(3, 'Litro'));
 
 	angular.forEach($scope.produtos, function(produto){
-		if(produto.codigo == $routeParams.id){
+		if(produto.codigo === $routeParams.id){
 			$scope.produto = produto;
 			return;
 		}

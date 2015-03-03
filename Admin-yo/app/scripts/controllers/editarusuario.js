@@ -43,7 +43,7 @@ angular.module('adminApp')
 	$scope.cargos.push(createCargo(3, 'Entregador'));
 
 	angular.forEach($scope.equipe, function(usuario){
-		if(usuario.codigo == $routeParams.id){
+		if(usuario.codigo === $routeParams.id){
 			$scope.usuario = usuario;
 			return;
 		}

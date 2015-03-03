@@ -21,7 +21,7 @@
             		<a href="#dashboard">Totalizadores</a>
         		</div>
         		<div class="panel-body">
-            		<div id="hero-bar-totalizadores"></div>
+        			<canvas id="bar" class="chart chart-bar ng-isolate-scope"  data="dataTotalizadores" labels="labelsTotalizadores" series="seriesTotalizadores" options="optionsTotalizadores"></canvas>
         		</div>
     		</div>            
 		</div>
@@ -31,7 +31,7 @@
             		<a href="#dashboard">Vendas</a>
         		</div>
         		<div class="panel-body">
-            		<div id="hero-area-vendas"></div>
+        			<canvas id="line" class="chart chart-line" data="dataVendas" labels="labelsVendas" legend="true" series="seriesVendas"> </canvas> 
         		</div>
     		</div>            
 		</div>

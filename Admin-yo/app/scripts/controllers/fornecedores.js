@@ -1,3 +1,5 @@
+'use strict';
+
 angular.module('adminApp').controller('FornecedoresCtrl', ['$scope', '$rootScope', function ($scope, $rootScope) {
 	$rootScope.menuSelecionado = 'fornecedores';
 	$scope.tela = 'Fornecedores';

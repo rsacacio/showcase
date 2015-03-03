@@ -30,7 +30,7 @@ angular.module('adminApp')
 	$scope.clientes.push(createCliente(4, 'Bruce wayne', 'brucebat@wayne.com', '9998-9888', 'Av. Gotham'));
 
 	angular.forEach($scope.clientes, function(cliente){
-		if(cliente.codigo == $routeParams.id){
+		if(cliente.codigo === $routeParams.id){
 			$scope.cliente = cliente;
 			return;
 		}

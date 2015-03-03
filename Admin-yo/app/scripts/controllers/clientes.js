@@ -1,6 +1,9 @@
+'use strict';
+
 angular.module('adminApp').controller('ClientesCtrl', ['$scope', '$rootScope', function ($scope, $rootScope) {
 	$rootScope.menuSelecionado = 'clientes';
 	$scope.tela = 'Clientes';
+	$scope.urlback = 'home';
 	
 	var createCliente = function(_codigo, _nome, _email, _telefone, _endereco){
 		return {
