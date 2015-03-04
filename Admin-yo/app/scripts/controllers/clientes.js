@@ -4,6 +4,7 @@ angular.module('adminApp').controller('ClientesCtrl', ['$scope', '$rootScope', f
 	$rootScope.menuSelecionado = 'clientes';
 	$scope.tela = 'Clientes';
 	$scope.urlback = 'home';
+	$scope.icone = 'credit-card';
 	
 	var createCliente = function(_codigo, _nome, _email, _telefone, _endereco){
 		return {

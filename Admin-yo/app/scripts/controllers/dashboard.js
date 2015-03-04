@@ -4,6 +4,7 @@ angular.module('adminApp').controller('DashboardCtrl', ['$scope', '$rootScope', 
 	$rootScope.menuSelecionado = 'dashboard';
     $scope.tela = 'Dashboard';
     $scope.urlback = 'home';
+    $scope.icone = 'bar-chart-o';
 
 	$scope.optionsTotalizadores = { scaleShowVerticalLines: false };
     $scope.labelsTotalizadores = ['Usuários', 'Produtos', 'Fornecedores', 'Clientes'];

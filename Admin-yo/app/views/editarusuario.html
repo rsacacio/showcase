@@ -15,7 +15,7 @@
 	        </div>
 	        <div class="form-group">
 	            <label>Cargo</label>                        
-	            <select class="form-control" id="tipo" placeholder="Selecione o Cargo" ng-model="usuario.cargo" ng-options=" cargo.nome as cargo.nome for cargo in cargos" >
+	            <select class="form-control" id="tipo" placeholder="Selecione o Cargo" ng-model="usuario.cargo.codigo" ng-options=" cargo.codigo as cargo.nome for cargo in cargos" >
 	            </select>
 	        </div>
 	        <div class="form-group">
@@ -27,5 +27,5 @@
 </div>
 <div class="modal-footer">
     <a class="btn btn-default" href="#equipe" role="button"> Cancelar</a>
-	<a class="btn btn-primary" href="#equipe" role="button"> Salvar</a>
+	<a class="btn btn-primary" href="#equipe" ng-click="save()" role="button"> Salvar</a>
 </div>

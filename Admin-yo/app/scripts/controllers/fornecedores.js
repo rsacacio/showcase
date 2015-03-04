@@ -4,6 +4,7 @@ angular.module('adminApp').controller('FornecedoresCtrl', ['$scope', '$rootScope
 	$rootScope.menuSelecionado = 'fornecedores';
 	$scope.tela = 'Fornecedores';
 	$scope.urlback = 'home';
+	$scope.icone = 'truck';
 
 	var createFornecedor = function(_codigo, _nome, _cnpj, _representante, _endereco){
 		return {

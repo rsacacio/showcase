@@ -17,11 +17,11 @@
                     <td>{{usuario.nome}}</td>
                     <td>{{usuario.email}}</td>
                     <td>{{usuario.telefone}}</td>
-                    <td>{{usuario.cargo}}</td>
+                    <td>{{usuario.cargo.nome}}</td>
                     <td>{{usuario.login}}</td>
                     <td class="center">
                         <a href="#equipe/editar/{{usuario.codigo}}"><i class="fa fa-edit"></i></a>
-                        <a href=""><i class="fa fa-times"></i></a>
+                        <a href="" ng-click="deleteEquipe(usuario.codigo)"><i class="fa fa-times"></i></a>
                     </td>
                 </tr>
             </tbody>

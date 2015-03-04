@@ -4,6 +4,7 @@ angular.module('adminApp').controller('ProdutosCtrl', ['$scope', '$rootScope', f
 	$rootScope.menuSelecionado = 'produtos';
     $scope.tela = 'Produtos';
     $scope.urlback = 'home';
+    $scope.icone = 'archive';
 
 	var createProduto = function(_codigo, _descricao, _tipo, _unidade, _valor){
 		return {
