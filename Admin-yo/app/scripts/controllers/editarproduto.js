@@ -8,54 +8,35 @@
  * Controller of the adminApp
  */
 angular.module('adminApp')
-  .controller('EditarprodutoCtrl', [ '$scope', '$rootScope', '$routeParams', function ($scope, $rootScope, $routeParams){
+  .controller('EditarprodutoCtrl', [ '$scope', '$rootScope', '$routeParams', 'produtosFactory', 'unidadeProdutoFactory', 'tipoProdutoFactory', function ($scope, $rootScope, $routeParams, produtosFactory, unidadeProdutoFactory, tipoProdutoFactory){
   	$rootScope.menuSelecionado = 'produtos';
     $scope.tela = 'Editar produto';
     $scope.urlback = 'produtos';
 
-    var createProduto = function(_codigo, _descricao, _tipo, _unidade, _valor){
-		return {
-			codigo: _codigo,
-			descricao: _descricao,
-			tipo: _tipo,
-			unidade: _unidade,
-			valor: _valor
-		};
-	};
+	$scope.save = function(){
+    	produtosFactory.save($scope.produto, function(produto){
+    	});
+    };
 
-	var createTipo = function(_codigo, _nome){
-		return {
-			codigo: _codigo,
-			nome: _nome
-		};
-	};
+    $scope.getProduto = function(){
+    	produtosFactory.get($routeParams.id).success(function(data, status){
+    		$scope.produto = data;
+    	});
+    };
 
-	var createUnidade = function(_codigo, _nome){
-		return{
-			codigo: _codigo,
-			nome: _nome
-		};
-	};
+    $scope.listTipoProduto = function(){
+    	tipoProdutoFactory.list().success(function(data, status){
+    		$scope.tiposProduto = data;
+    	});
+    };
 
-	$scope.produtos = [];
-	$scope.produtos.push(createProduto(1, 'Skol', createTipo(1, 'Cerveja'), createUnidade(1, 'Caixa'), 90.0));
-	$scope.produtos.push(createProduto(2, 'Brahma', createTipo(1, 'Cerveja'), createUnidade(1, 'Caixa'), 94.0));
-	$scope.produtos.push(createProduto(3, 'Coca-cola', createTipo(2, 'Refrigerante'), createUnidade(2, 'Fardo'), 35.0));
+ 	$scope.listUnidades = function(){
+    	unidadeProdutoFactory.list().success(function(data, status){
+    		$scope.unidades = data;
+    	});
+    };
 
-	$scope.tipos = [];
-	$scope.tipos.push(createTipo(1, 'Cerveja'));
-	$scope.tipos.push(createTipo(2, 'Refrigerante'));
-	$scope.tipos.push(createTipo(3, 'Água'));
-
-	$scope.unidades = [];
-	$scope.unidades.push(createUnidade(1, 'Caixa'));
-	$scope.unidades.push(createUnidade(2, 'Fardo'));
-	$scope.unidades.push(createUnidade(3, 'Litro'));
-
-	angular.forEach($scope.produtos, function(produto){
-		if(produto.codigo == $routeParams.id){
-			$scope.produto = produto;
-			return;
-		}
-	});	
+	$scope.listUnidades();
+    $scope.listTipoProduto();
+    $scope.getProduto();
 }]);
