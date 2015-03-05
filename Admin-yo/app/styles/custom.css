@@ -66,7 +66,8 @@ p {
     background-color:#F8F8F8;
 
 }
-   .noti-box {
+
+.noti-box {
 min-height: 100px;
 padding: 20px;
 }
@@ -386,4 +387,13 @@ line-height: 1.428571429;
 #map {
   width: 600px;
   height: 400px;
+}
+
+
+#lista-vazia{
+    background-color: #f6f6f6; 
+    color: #032336;
+    border: 1px solid #ECECEC;
+    padding: 80px;
+    text-align: center;
 }
