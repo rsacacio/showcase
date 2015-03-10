@@ -1,33 +1,25 @@
 'use strict';
 
-angular.module('adminApp').controller('FornecedoresCtrl', ['$scope', '$rootScope', function ($scope, $rootScope) {
+angular.module('adminApp').controller('FornecedoresCtrl', ['$scope', '$rootScope', '$timeout', 'fornecedorFactory', function ($scope, $rootScope, $timeout, fornecedorFactory) {
 	$rootScope.menuSelecionado = 'fornecedores';
 	$scope.tela = 'Fornecedores';
 	$scope.urlback = 'home';
 	$scope.icone = 'truck';
 
-	var createFornecedor = function(_codigo, _nome, _cnpj, _representante, _endereco){
-		return {
-			codigo: _codigo,
-			nome: _nome,
-			cnpj: _cnpj,
-			representante: _representante,
-			endereco: _endereco
-		};
+	$scope.listFornecedores = function(){
+		fornecedorFactory.list().success(function(data, status){
+			$scope.fornecedores = data;
+		});
 	};
 
-	var createRepresentante = function(_codigo, _nome, _email, _telefone){
-		return{
-			codigo: _codigo,
-			nome: _nome,
-			email: _email,
-			telefone: _telefone
-		};
+	$scope.deleteEquipe = function(id){
+		fornecedorFactory.exclude(id, function(data, status){
+			$scope.listFornecedores();
+		});
 	};
 
-	$scope.fornecedores = [];
-	$scope.fornecedores.push(createFornecedor(1, 'Fornecedor 1', '212121121/21212', createRepresentante(1, 'Alexsandro PFleger', 'alex@fornecedor1.com', '9888-8799'), 'São Pedro de Alcântara'));
-	$scope.fornecedores.push(createFornecedor(1, 'Fornecedor 2', '343243434/34343', createRepresentante(2, 'Marilda Valéria Rios de Souza', 'mara@fornecedor2.com', '9888-8799'), 'São Pedro de Alcântara'));
-	$scope.fornecedores.push(createFornecedor(1, 'Fornecedor 3', '867564434/44232', createRepresentante(3, 'José Nazareno de Souza', 'josé@fornecedor3.com', '9888-8799'), 'São Pedro de Alcântara'));
+	$timeout(function() {
+		$scope.listFornecedores();	
+	}, 100);
 	
 }]);

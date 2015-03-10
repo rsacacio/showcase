@@ -2,8 +2,12 @@
     <div ng-include="'views/widgets/breadcrumbs.html'"></div>
     <form role="form">
         <div class="form-group">
+            <label>Razão social</label>
+            <input class="form-control" placeholder="Informe o nome do fornecedor" ng-model="fornecedor.razaoSocial" />
+        </div>
+        <div class="form-group">
             <label>Nome</label>
-            <input class="form-control" placeholder="Informe o nome do fornecedor" ng-model="fornecedor.nome" />
+            <input class="form-control" placeholder="Informe o nome do fornecedor" ng-model="fornecedor.nomeFantasia" />
         </div>
         <div class="form-group">
             <label>CNPJ</label>
@@ -21,14 +25,14 @@
             <label>Telefone</label>
             <input class="form-control" placeholder="Informe o telefone do representante" ng-model="fornecedor.representante.telefone" />
         </div>
-        <div class="form-group">
+        <!-- <div class="form-group">
             <label>Endereço</label>                        
-            <input class="form-control" placeholder="Informe o endereço do fornecedor" ng-model="fornecedor.endereco" />
+            <input class="form-control" placeholder="Informe o endereço do fornecedor" ng-model="fornecedor.endereco." />
             </select>
-        </div>
+        </div> -->
     </form>
 </div>
 <div class="modal-footer">
 	<a class="btn btn-default" href="#fornecedores" role="button"> Cancelar</a>
-	<a class="btn btn-primary" href="#fornecedores" role="button"> Salvar</a>
+    <a class="btn btn-primary" href="#fornecedores" ng-click="save()" role="button"> Salvar</a>
 </div>
